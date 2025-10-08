@@ -1,0 +1,23 @@
+# Core LangChain e LangGraph
+langchain-groq>=0.1.0
+langchain-core>=0.1.0
+langgraph>=0.0.1
+
+# RAG e Vector Store
+langchain-huggingface>=0.0.1
+langchain-pinecone>=0.1.0
+pinecone>=6.0.0
+langchain-text-splitters>=0.0.1
+
+# Busca Web (escolha uma):
+# langchain-tavily>=0.1.0  # Requer API key (comentado para economizar)
+duckduckgo-search>=4.0.0  # Alternativa gratuita (recomendado)
+
+# Utilitários
+python-dotenv>=1.0.0
+ipywidgets>=8.0.0
+numexpr>=2.8.0
+
+# Jupyter (já instalado via conda - opcional)
+# jupyter>=1.0.0
+# notebook>=7.0.0
